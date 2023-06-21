@@ -3,7 +3,68 @@
    flex-direction: column;
    gap: 25px;
 }
+.contact_form form{
+   display: flex;
+   gap: 20px;
+   padding-bottom: 20px;
+   flex-direction: column;
+}
 .top_btn{
     display: flex;
     gap:30px
+}
+.btom-btn text{
+   margin: 20px;
+}
+
+.container{
+   display: flex;
+   max-width: 1000px;
+   margin: 0 auto;
+   margin-top:  40px;
+   
+
+}
+.btn-text{
+margin-left: 15px;
+margin-bottom: 25px;
+}
+.isOutLine{
+   padding: 18px 10px;
+   color: black;
+   border: 1px solid black;
+   border-radius: 5px;
+   align-items: center;
+   gap: 8px;
+   font-size: 16px;
+   justify-content: center;
+   background-color: white;
+   min-width: 220px;
+   cursor: pointer;
+   width: 100%;
+}
+.form_control{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   flex-direction: column;
+   position: relative;
+}
+.form_control input{
+   height: 40px;
+   padding: 0 8px;
+}
+.form_control textarea{
+   padding: 8px;
+}
+.form_control label{
+   font-size: 14px;
+ 
+   position: absolute;
+   top: -12px;
+   padding: 0 10px;
+   left: 10px;
+   background-color: white;
+   padding: 0 10px;
+   
 }
